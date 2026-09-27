@@ -2466,7 +2466,7 @@ fn run_ranges(runs: &[TextRun]) -> Vec<Range<usize>> {
 mod tests {
     use super::*;
     use gpui::{
-        AppContext, CaretSelection, Context, FontFallbacks, FontFeatures as GpuiFontFeatures,
+        CaretSelection, Context, FontFallbacks, FontFeatures as GpuiFontFeatures,
         FontStyle as GpuiFontStyle, FontSynthesis, FontWeight as GpuiFontWeight, GlyphRenderMode,
         HeadlessAppContext, HighlightStyle, Hsla, IntoElement, Point, RasterFace,
         RasterizedGlyphFormat, Render, StrikethroughStyle, Styled, StyledText, TestTextSystem,
